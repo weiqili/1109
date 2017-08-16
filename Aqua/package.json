@@ -1,0 +1,16 @@
+{
+  "name": "Aqua",
+  "version": "0.0.1",
+  "description": "my project",
+  "main": "gate.js",
+  "scripts": {
+    "start": "node gate.js"
+  },
+  "author": "lwq",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1"
+  }
+}
