@@ -7,7 +7,7 @@ const app = new Koa();
 
 //log
 app.use(async (ctx, next) => {
-    console.log('${ctx.request.method} ${ctx.request.url}');
+    console.log(`${ctx.request.method} ${ctx.request.url}`);
     await next();
 });
 
@@ -15,7 +15,7 @@ app.use(async (ctx, next) => {
     const start = new Date().getTime();
     await next();
     const ms = new Date().getTime() - start;
-    console.log('Time: ${ms}ms');
+    console.log(`Time: ${ms}ms`);
 });
 
 
