@@ -12,10 +12,6 @@ var readysignup = function (ctx, next) {
                         <td><input type="password" name="password"></td>
                     </tr>
                     <tr>
-                        <td>CheckCode: </td>
-                        <td><input type="text" name="checkcode"></td>
-                    </tr>
-                    <tr>
                         <td></td>
                         <td style="text-align: right"><input type="submit" value="sign up"></td>
                     </tr>
