@@ -25,7 +25,7 @@ public class ExceptionHandleController {
      */
     @ExceptionHandler(SystemException.class)
     @ResponseBody
-    public String exceptionReturnString(SystemException e) {
+    public String catchSystemException(SystemException e) {
         String exceptionMessage = "";
         Annotation anno = null;
         String annoName = "";
@@ -61,7 +61,7 @@ public class ExceptionHandleController {
      */
     @ExceptionHandler(BusinessException.class)
     @ResponseBody
-    public Map<String, Object> exceptionReturnJson(BusinessException e) {
+    public Map<String, Object> catchBusinessException(BusinessException e) {
         Map<String, Object> exceptionMessage = new HashMap<>(1);
         String ret_code = "0";
         String message = "";
