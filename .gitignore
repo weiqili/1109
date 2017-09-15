@@ -16,6 +16,12 @@
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
+**/target/
+**/.idea/
+**/.project
+**/.classpath
+**/.settings/
+**/exception.iml
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -62,3 +68,7 @@ fabric.properties
 #nodejs
 node_modules/
 package-lock.json
+
+
+# vscode
+.vscode/
